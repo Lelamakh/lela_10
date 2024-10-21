@@ -23,134 +23,119 @@
       property="og:image"
       content="https://github.com/Lelamakh/animation7/blob/main/src/img/rec2.png?raw=true"
     />
+    <link rel="stylesheet" type="text/css" href="src/css/style.css" />
   </head>
+
   <body>
     <header>
       <div class="container">
-        <a href="#">
-          <img src="src/images/logoo.png" class="logo" alt="logoo" />
-        </a>
-        <nav>
-          <ul>
-            <li><a href="#"> მთავარი </a></li>
-            <li><a href="#"> ჩვენ შესახებ </a></li>
-            <li><a href="#"> სერვისები </a></li>
-            <li><a href="#"> პროექტები </a></li>
-            <li><a href="#"> პარტნიორები </a></li>
-            <li><a href="#" class="contact"> კონტაქტი </a></li>
-          </ul>
-        </nav>
+        <div class="wrapper">
+          <a href="index.html" class="logo">
+            <img src="src/images/logoo.png" alt="logo" />
+          </a>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">მთავარი</a>
+              </li>
+              <li><a href="#">ჩვენ შესახებ</a></li>
+              <li><a href="#">სერვისები</a></li>
+              <li><a href="#">პროექტები</a></li>
+              <li><a href="#">პარტნიორები</a></li>
+              <li><button class="button">კონტაქტი</button></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <section class="bgblue">
-        <div class="container">
-          <img src="src/images/rec1.png" class="headerfoto1" alt="rec1" />
-          <img src="src/images/rec2.png" class="headerfoto2" alt="rec2" />
+    </header>
+    <section>
+      <div class="container">
+        <div class="parent2">
+          <h1>სერვისები</h1>
+          <div class="dots">
+            <span class="dots"></span>
+            <span class="dots"></span>
+            <span class="dots"></span>
+          </div>
         </div>
-        <div class="slider-pagination">
-          <span class="dot active"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-        </div>
-        <div class="arrows">
-          <button class="prev">prev</button>
-          <button class="next">next</button>
-        </div>
-      </section>
 
-      <section class="container about-section">
-        <div class="text">
-          <h2>ჩვენ შესახებ</h2>
-          <p>
-            ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის
-            ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. orem Ipsum-ის
-            გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს,
-            ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე. შედეგად, ტექსტი
-            ჩვეულებრივ ინგლისურს გავს, მისი წაითხვა კი შეუძლებელია. დღეს უამრავი
-            პერსონალური საგამომცემლო პროგრამა და ვებგვერდი იყენებს Lorem
-            Ipsum-ს, როგორც დროებით ტექსტს წყობის შესავსებად; Lorem Ipsum-ის
-            მოძებნისას კი საძიებო სისტემები ბევრ დაუსრულებელ გვერდს გვიჩვენებენ.
-            წლების მანძილზე ამ ტექსტის უამრავი ვერსია გამოჩნდა, ზოგი შემთხვევით
-            დაშვებული შეცდომის გამო, ზოგი კი — განზრახ, ხუმრობით.
-          </p>
+        <div class="container"></div>
+        <div class="parent">
+          <div class="box item-1">
+            <div class="servicebox1"></div>
+            <h2>სერვისი 1</h2>
+            <p>
+              ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის
+              ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს.
+            </p>
+          </div>
+          <div class="box item-2">
+            <div class="servicebox2"></div>
+            <h2>სერვისი 2</h2>
+            <p>
+              ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის
+              ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს.
+            </p>
+          </div>
+          <div class="box item-3">
+            <div class="servicebox3"></div>
+            <h2>სერვისი 3</h2>
+            <p>
+              ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის
+              ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h1>პარტნიორები</h1>
+        <div class="section-grid">
           <p>
             Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
-            <a href="#" target="_blank" class="textlink">
-              იგი სტანდარტად 1500-იანი წლებიდან იქცა
-            </a>
-            როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი
-            დაბეჭდა.
+            იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა
+            ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
           </p>
-        </div>
-
-        <div class="img-block">
-          <img
-            src="src/images/sniped.png"
-            class="chvensshesaxeb"
-            alt="sniped"
-          />
-        </div>
-      </section>
- 
-      
-    <section>
-        <div class="container"></div>
-      <div class="parent">
-        <div class="box item-1">
-          <div class="servicebox1"></div>
-          <h2>სერვისი 1</h2>
-          <p>
-            ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის
-            ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს.
-          </p>
-        </div>
-        <div class="box item-2">
-          <div class="servicebox2">
+          <div class="gridsparent">
+            <div class="tree item-1">
+              <img src="src/images/log1.png" alt="log1" />
+            </div>
+            <div class="tree item-2">
+              <img src="src/images/log2.png" alt="log2" />
+            </div>
+            <div class="tree item-3">
+              <img src="src/images/log3.png" alt="log3" />
+            </div>
+            <div class="tree item-4">
+              <img src="src/images/log4.png" alt="log4" />
+            </div>
+            <div class="tree item-5">
+              <img src="src/images/log5.png" alt="log5" />
+            </div>
+            <div class="tree item-6">
+              <img src="src/images/log6.png" alt="log6" />
+            </div>
+            <div class="tree item-7">
+              <img src="src/images/log7.png" alt="log7" />
+            </div>
+            <div class="tree item-8">
+              <img src="src/images/log8.png" alt="log8" />
+            </div>
+            <div class="tree item-9">
+              <img src="src/images/log9.png" alt="log9" />
+            </div>
           </div>
-          <h2>სერვისი 2</h2>
-          <p>
-            ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის
-            ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს.
-          </p>
-        </div>
-        <div class="box item-3">
-          <div class="servicebox3"></div>
-          <h2>სერვისი 3</h2>
-          <p>
-            ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის
-            ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს.
-          </p>
         </div>
       </div>
     </section>
-
-
-    <section class="container proeqtebi-section">
-        <h2>პროექტები</h2 class="bgblue">
-        <article>
-          <img src="src/images/rec5.png" class="article-photo" alt="rec5" />
-          <p>
-            ჩვენი მიმდინარე პროექტი რომელიც შენდება დიდუბეში, წერეთლის 143
-            ნომერში
-          </p>
-        </article>
-
-        <article>
-          <img src="src/images/rec6.png" class="article-photo" alt="rec6" />
-          <p>
-            ჩვენი მიმდინარე პროექტი რომელიც შენდება დიდუბეში, წერეთლის 143
-            ნომერში
-          </p>
-        </article>
-        <article>
-          <img src="src/images/rec4.png" class="article-photo" alt="rec4" />
-          <p>
-            ჩვენი მიმდინარე პროექტი რომელიც შენდება დიდუბეში, წერეთლის 143
-            ნომერში
-          </p>
-        </article>
-      </div>
-    </section>
-
-    </header>
+    <footer>
+      <section class="forms">
+        <form action="#">
+          <input type="text" />
+        </form>
+      </section>
+    </footer>
   </body>
 </html>

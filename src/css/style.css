@@ -1,35 +1,30 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-
 a {
   text-decoration: none;
-  color: black;
 }
-
 ul {
   list-style: none;
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
-
-.continer {
-  max-width: 1920px;
+.logoo {
+  width: 100px;
+}
+.container {
+  max-width: 1475px;
   width: 100%;
   margin: 0 auto;
-}
-.logo {
-  width: 100px;
 }
 .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 240px;
   padding-top: 40px;
 }
 header ul {
@@ -39,34 +34,16 @@ header ul {
 header {
   background-color: #0a22f4;
 }
+
 nav a {
   color: white;
   font-size: 16px;
 }
 h1 {
-  margin-top: 130px;
-  margin-left: 240px;
-}
-.parent2 {
-  display: flex;
-}
-.dots {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background-color: #0a22f4;
-  opacity: 100%;
-  border-radius: 50%;
-}
-
-.box {
-  width: 1920px;
-  opacity: 95%;
-  pad: 40px;
+  margin-top: 200px;
 }
 .parent {
-  margin-left: 240px;
-  margin-top: 60px;
+  margin-top: 100px;
   display: flex;
   gap: 25px;
 }
@@ -89,5 +66,34 @@ h1 {
   margin-bottom: 40px;
 }
 h2 {
-  margin-bottom: 20px;
+  margin-bottom: 100px;
+}
+.tree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 219px;
+  height: 82px;
+  padding: 25px;
+}
+section p {
+  display: flex;
+  width: 463px;
+  height: 99px;
+  font-size: 16px;
+}
+.gridsparent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.section-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: normal;
+  margin-top: 60px;
+}
+footer {
+  *background-color: blue;
+  margin-top: 150px;
 }
