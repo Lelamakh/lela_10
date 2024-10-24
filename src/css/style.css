@@ -29,6 +29,9 @@ img {
 }
 header ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   gap: 43px;
 }
 header {
@@ -84,7 +87,6 @@ section p {
 }
 .gridsparent {
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
@@ -101,13 +103,21 @@ footer {
   padding-bottom: 100px;
   color: white;
 }
+footer h1 {
+  font-size: 32px;
+}
+footer p {
+  width: 463px;
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 26px;
+}
 .forms {
   display: flex;
   display: inline-block;
 }
 .form-row {
-  grid-template-columns: 1fr 2fr;
-  padding: 81px;
+  padding-block: 40px;
 }
 .form {
   display: flex;
@@ -127,23 +137,15 @@ footer {
   opacity: 0.3px;
 }
 textarea {
+  width: 463px;
   background-color: #0a22f4;
   border-top: #0a22f4;
   border-right: #0a22f4;
   border-left: #0a22f4;
   opacity: 0.3px;
+  margin-top: 58px;
 }
 
-.part1 {
-  display: inline-block;
-}
-
-footer p {
-  width: 463px;
-  margin-top: 30px;
-  font-size: 16px;
-  line-height: 26px;
-}
 .img1 {
   width: 26px;
   height: 26px;
@@ -157,8 +159,21 @@ footer p {
   margin-left: 30px;
 }
 button {
-  display: block;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 151px;
+  height: 55px;
 }
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 40px;
+  max-width: 463px;
+  text-align: center;
+}
+
 h5 {
   display: flex;
   margin-right: 15px;
@@ -170,6 +185,8 @@ h5 {
 }
 footer iframe {
   margin-top: 58px;
+  width: 463px;
+  height: 197px;
 }
 footer a {
   margin: 92px;
@@ -177,18 +194,57 @@ footer a {
   display: flex;
   justify-content: space-between;
 }
+footer ul {
+  display: flex;
+}
+.telpng {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+}
+.mailpng {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+}
+.telbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.mailbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.teltext .mailtext {
+  font-size: 22px;
+}
 .contact {
   display: flex;
   justify-content: space-between;
-  align-items: normal;
+  align-items: center;
+  margin-top: 70px;
 }
 .rightcorner {
   display: flex;
-  justify-content: right;
   align-items: center;
 }
 .leftcorner {
   display: flex;
-  justify-content: left;
+
   align-items: center;
+}
+.lastline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 87px;
+  margin-bottom: 40px;
 }
